@@ -48,6 +48,9 @@ app.use("/api/comments", commentRoutes);
 app.use("/api/upload", uploadRoutes);
 
 // Serve React
+console.log("__dirname =", __dirname);
+console.log("cwd =", process.cwd());
+
 app.use(express.static(path.join(__dirname, "public")));
 
 app.get(/.*/, (req, res) => {

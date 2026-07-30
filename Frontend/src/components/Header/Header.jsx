@@ -36,11 +36,10 @@ export default function Header() {
         <div className="flex items-center justify-between gap-4">
           <Link to="/" className="flex items-center gap-3" onClick={handleNavClick}>
             <span className="flex h-11 w-11 items-center justify-center rounded-2xl bg-gradient-to-br from-sky-400 to-blue-700 text-lg font-black text-white shadow-lg shadow-blue-950/30">
-              GS
+              KTV
             </span>
             <span>
-              <span className="block text-xs uppercase tracking-[0.28em] text-sky-300">Sports desk</span>
-              <span className="block text-xl font-semibold text-white">Game of Sports</span>
+              <span className="block text-xl font-semibold text-white">KhelKhoodTV</span>
             </span>
           </Link>
 
